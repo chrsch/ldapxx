@@ -59,6 +59,7 @@ void apply_options(LDAP * connection, connection_options::tls_options const & op
 	set_if(connection, options.crlcheck,     set_tls_crlcheck);
 	set_if(connection, options.crlfile,      set_tls_crlfile);
 	set_if(connection, options.dhfile,       set_tls_dhfile);
+	set_if(connection, options.keyfile,      set_tls_certfile);
 	set_if(connection, options.keyfile,      set_tls_keyfile);
 	set_if(connection, options.protocol_min, set_tls_protocol_min);
 	set_if(connection, options.random_file,  set_tls_random_file);

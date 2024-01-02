@@ -71,6 +71,7 @@ struct connection_options {
 		boost::optional<crl_check_t>    crlcheck     = boost::none;
 		boost::optional<std::string>    crlfile      = boost::none;
 		boost::optional<std::string>    dhfile       = boost::none;
+		boost::optional<std::string>    certfile     = boost::none;
 		boost::optional<std::string>    keyfile      = boost::none;
 		boost::optional<tls_protocol_t> protocol_min = boost::none;
 		boost::optional<std::string>    random_file  = boost::none;
